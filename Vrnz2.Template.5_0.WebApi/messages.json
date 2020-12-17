@@ -1,0 +1,22 @@
+{
+  "LocaleMessages": [
+    {
+      "LocaleName": "pt-BR",
+      "Messages": [
+        {
+          "Code": "ERROR_00000",
+          "Content": "Erro inesperado!"
+        }
+      ]
+    },
+    {
+      "LocaleName": "en-US",
+      "Messages": [
+        {
+          "Code": "ERROR_00000",
+          "Content": "Unexpected Error!"
+        }
+      ]
+    }
+  ]
+}
