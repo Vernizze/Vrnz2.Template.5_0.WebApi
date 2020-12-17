@@ -21,16 +21,15 @@ namespace Vrnz2.Template._5_0.WebApi
     public class Startup
     {
         public Startup(IConfiguration configuration)
-        {
-            Configuration = configuration;
-        }
+            => Configuration = configuration;
 
         public IConfiguration Configuration { get; }
 
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers()
+            services
+                .AddControllers()
                 .ConfigureApiBehaviorOptions(options => options.SuppressModelStateInvalidFilter = true)
                 .AddFluentValidation();
             

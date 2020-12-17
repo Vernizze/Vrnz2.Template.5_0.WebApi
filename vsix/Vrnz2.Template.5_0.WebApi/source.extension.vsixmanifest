@@ -3,7 +3,8 @@
     <Metadata>
         <Identity Id="Vrnz2.Template._5_0.WebApi.5a671146-4d13-4a12-b80e-e94eb8b54c57" Version="1.0" Language="en-US" Publisher="Vrnz2 Systems" />
         <DisplayName>Vrnz2.Template._5_0.WebApi</DisplayName>
-        <Description xml:space="preserve">Vrnz2 Systems Web API Template (Dotnet Core 5 version)</Description>
+        <Description xml:space="preserve">Vrnz2 Systems Web API Project Template (Dotnet Core 5 version)</Description>
+        <Icon>vrnz2_logo.png</Icon>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
